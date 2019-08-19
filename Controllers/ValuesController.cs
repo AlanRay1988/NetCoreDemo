@@ -19,7 +19,10 @@ namespace NetCoreDemo.Controllers
         [HttpPost]
         public void Post([FromBody] string value)
         {
+            var a = 1;
+            a++;
         }
+        
 
         // PUT api/values/5
         [HttpPut("{id}")]
