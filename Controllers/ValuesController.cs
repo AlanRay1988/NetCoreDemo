@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 namespace NetCoreDemo.Controllers
 {
@@ -19,11 +19,9 @@ namespace NetCoreDemo.Controllers
         [HttpPost]
         public void Post([FromBody] string value)
         {
-            var a = 1;
-            a++;
-            a+=1;
+
         }
-        
+
 
         // PUT api/values/5
         [HttpPut("{id}")]
